@@ -1,0 +1,64 @@
+/* Reset document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Configurações */
+body {
+    font-size: 100%;
+    font-family: sans-serif;
+    /*background-image */
+    background-attachment: fixed;
+}
+
+div, section, header, span, ul, li, a {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 2.5em;
+    align-items: center;
+    /*background-color: rgba(56, 192, 255, 0.13);*/
+    position: fixed;
+    z-index: 999;
+}
+
+#logo {
+    max-height: 8rem;
+}
+
+#menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 1rem;
+}
+
+#menu li a {
+    color: #cf110b;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    border-radius: 3px;
+    text-shadow: 3px 3px 5px rgb(255, 255, 255);
+}
+
+#menu li a:hover {
+    color: gray;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+#sobrenos {
+    background-color: #59c9a500;
+    color: #48668d;
+    text-align: center;
+    padding: 120px 40px 40px 40px;
+    font-size: 10px;
+}
