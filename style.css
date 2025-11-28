@@ -20,11 +20,16 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0.5em 2.5em;
+    /*padding: 0.5em 2.5em;*/
     align-items: center;
-    /*background-color: rgba(56, 192, 255, 0.13);*/
+    background-color: rgb(56, 192, 255);
     position: fixed;
     z-index: 999;
+}
+
+#topbotoes {
+    /*padding: 0.5em 1em;*/
+    background-color: rgb(7, 79, 212);
 }
 
 #logo {
@@ -34,16 +39,16 @@ header {
 #menu li {
     list-style: none;
     display: inline-block;
-    margin: 1rem;
+    /*margin: 1rem;*/
 }
 
 #menu li a {
-    color: #cf110b;
+    color: #ffffff;
     padding: 0.5rem;
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     border-radius: 3px;
-    text-shadow: 3px 3px 5px rgb(255, 255, 255);
+    /*text-shadow: 3px 3px 5px rgb(255, 255, 255);*/
 }
 
 #menu li a:hover {
