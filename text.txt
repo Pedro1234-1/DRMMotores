@@ -1,0 +1,37 @@
+/*
+        const itemHeader_1 = document.getElementById('header_1');
+        const itemHeader_2 = document.getElementById('header_2');
+        const itemHeader_3 = document.getElementById('header_3');
+        const itemHeader_4 = document.getElementById('header_4');
+        document.getElementById('quemsomos').style.display = "block";
+        document.getElementById('arranjo').style.display = "none";
+        document.getElementById('chapapintura').style.display = "none";
+        document.getElementById('contactos').style.display = "none";
+        itemHeader_1.addEventListener('click', function handleClick() {
+            console.log('quemsomos clicked');
+            document.getElementById('quemsomos').style.display = "block";
+            document.getElementById('arranjo').style.display = "none";
+            document.getElementById('chapapintura').style.display = "none";
+            document.getElementById('contactos').style.display = "none";
+        });
+        itemHeader_2.addEventListener('click', function handleClick() {
+            console.log('arranjo clicked');
+            document.getElementById('quemsomos').style.display = "none";
+            document.getElementById('arranjo').style.display = "block";
+            document.getElementById('chapapintura').style.display = "none";
+            document.getElementById('contactos').style.display = "none";
+        });  
+        itemHeader_3.addEventListener('click', function handleClick() {
+            console.log('chapapintura clicked');
+            document.getElementById('quemsomos').style.display = "none";
+            document.getElementById('arranjo').style.display = "none";
+            document.getElementById('chapapintura').style.display = "block";
+            document.getElementById('contactos').style.display = "none";
+        });  
+        itemHeader_4.addEventListener('click', function handleClick() {
+            console.log('contactos clicked');
+            document.getElementById('quemsomos').style.display = "none";
+            document.getElementById('arranjo').style.display = "none";
+            document.getElementById('chapapintura').style.display = "none";
+            document.getElementById('contactos').style.display = "block";
+        });   */

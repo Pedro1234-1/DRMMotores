@@ -16,15 +16,15 @@
 
         <div id="topbotoes">
             <ul id="menu">
-                <li id="header_1"><a href="#quemsomos">Quem somos nós?</a></li>
-                <li id="header_2"><a href="#arranjo">Arranjo</a></li>
-                <li id="header_3"><a href="#chapapintura">Chapa e pintura</a></li>
+                <li id="header_1"><a href="#inicio">Início</a></li>
+                <li id="header_2"><a href="#reparacoes">Reparações</a></li>
+                <li id="header_3"><a href="#chapapintura">Chapa e Pintura</a></li>
                 <li id="header_4"><a href="#contactos">Contactos</a></li>
             </ul>
         </div>
     </header>
 
-    <section id="quemsomos">
+    <section id="inicio">
         <h1>Quem somos Nós?</h1>
         <h3>Na DRMMotores dedicamo-nos há décadas ao cuidado e manutenção de veículos,sempre com foco na qualidade e
             confiança.
@@ -36,8 +36,8 @@
             Mais do que reparar automóveis, trabalhamos para que cada viagem seja segura e tranquila.</h3>
     </section>
 
-    <section id="arranjo">
-        <h1>arranjo</h1>
+    <section id="reparacoes">
+        <h1>Reparações</h1>
         <h3>Na DRMMotores dedicamo-nos há décadas ao cuidado e manutenção de veículos,sempre com foco na qualidade e
             confiança.
             Localizados em Benavente, oferecemos serviços completos de mecânica, chapa e pintura,
@@ -49,7 +49,7 @@
     </section>
 
     <section id="chapapintura">
-        <h1>chapapintura</h1>
+        <h1>Chapa e Pintura</h1>
         <h3>Na DRMMotores dedicamo-nos há décadas ao cuidado e manutenção de veículos,sempre com foco na qualidade e
             confiança.
             Localizados em Benavente, oferecemos serviços completos de mecânica, chapa e pintura,
@@ -61,7 +61,7 @@
     </section>
 
     <section id="contactos">
-        <h1>contactos</h1>
+        <h1>Contactos</h1>
         <h3>Na DRMMotores dedicamo-nos há décadas ao cuidado e manutenção de veículos,sempre com foco na qualidade e
             confiança.
             Localizados em Benavente, oferecemos serviços completos de mecânica, chapa e pintura,
@@ -73,46 +73,35 @@
     </section>
 
     <footer>
-        <h1>aaaaaa</h1>
+        <div class="footer-container">
+    <div class="footer-about">
+      <h3>About Us</h3>
+      <p>We create modern web solutions for businesses worldwide.</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li id="footer_1"><a href="#inicio">Home</a></li>
+        <li id="footer_2"><a href="#reparacoes">Services</a></li>
+        <li id="footer_3"><a href="#chapapintura">Blog</a></li>
+        <li id="footer_4"><a href="#contactos">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <a href="#">🌐 Facebook</a>
+      <a href="#">🐦 Twitter</a>
+      <a href="#">📸 Instagram</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Your Company. All rights reserved.</p>
+  </div>
     </footer>
-    <script>
-        const itemHeader_1 = document.getElementById('header_1');
-        const itemHeader_2 = document.getElementById('header_2');
-        const itemHeader_3 = document.getElementById('header_3');
-        const itemHeader_4 = document.getElementById('header_4');
-        document.getElementById('quemsomos').style.display = "block";
-        document.getElementById('arranjo').style.display = "none";
-        document.getElementById('chapapintura').style.display = "none";
-        document.getElementById('contactos').style.display = "none";
-        itemHeader_1.addEventListener('click', function handleClick() {
-            console.log('quemsomos clicked');
-            document.getElementById('quemsomos').style.display = "block";
-            document.getElementById('arranjo').style.display = "none";
-            document.getElementById('chapapintura').style.display = "none";
-            document.getElementById('contactos').style.display = "none";
-        });
-        itemHeader_2.addEventListener('click', function handleClick() {
-            console.log('arranjo clicked');
-            document.getElementById('quemsomos').style.display = "none";
-            document.getElementById('arranjo').style.display = "block";
-            document.getElementById('chapapintura').style.display = "none";
-            document.getElementById('contactos').style.display = "none";
-        });  
-        itemHeader_3.addEventListener('click', function handleClick() {
-            console.log('chapapintura clicked');
-            document.getElementById('quemsomos').style.display = "none";
-            document.getElementById('arranjo').style.display = "none";
-            document.getElementById('chapapintura').style.display = "block";
-            document.getElementById('contactos').style.display = "none";
-        });  
-        itemHeader_4.addEventListener('click', function handleClick() {
-            console.log('contactos clicked');
-            document.getElementById('quemsomos').style.display = "none";
-            document.getElementById('arranjo').style.display = "none";
-            document.getElementById('chapapintura').style.display = "none";
-            document.getElementById('contactos').style.display = "block";
-        });   
-    </script>
+
 </body>
 
 </html>
