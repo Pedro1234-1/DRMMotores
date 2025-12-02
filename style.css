@@ -10,6 +10,7 @@ body {
     font-family: sans-serif;
     /*background-image */
     background-attachment: fixed;
+    overflow: auto;
 }
 
 div, section, header, span, ul, li, a {
@@ -34,6 +35,7 @@ header {
 
 #logo {
     max-height: 8rem;
+    width: 80%;
 }
 
 #menu li {
@@ -60,7 +62,28 @@ section {
     height: 100vh;
 }
 
-#sobrenos {
+#quemsomos {
+    background-color: #59c9a500;
+    color: #48668d;
+    text-align: center;
+    padding: 120px 40px 40px 40px;
+    font-size: 10px;
+}
+#arranjo {
+    background-color: #59c9a500;
+    color: #48668d;
+    text-align: center;
+    padding: 120px 40px 40px 40px;
+    font-size: 10px;
+}
+#chapapintura {
+    background-color: #59c9a500;
+    color: #48668d;
+    text-align: center;
+    padding: 120px 40px 40px 40px;
+    font-size: 10px;
+}
+#contactos {
     background-color: #59c9a500;
     color: #48668d;
     text-align: center;

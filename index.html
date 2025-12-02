@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Garden's Page</title>
+    <title>DRMMOTORES</title>
+    <link rel="icon" type="image/x-icon" href="images/aaa.ico">
     <link rel="stylesheet" href="style.css">
     <script src="js/slideshow.js" defer></script>
 </head>
@@ -14,23 +15,104 @@
         <a href="#logo"><img id="logo" src="images/aaa.png" alt="Site's logo"></a>
 
         <div id="topbotoes">
-        <ul id="menu">
-            <li><a href="#quemsomos">Quem somos nós?</a></li>
-            <li><a href="#arranjo">Arranjo</a></li>
-            <li><a href="#chapapintura">Chapa e pintura</a></li>
-            <li><a href="#contactos">Contactos</a></li>
-        </ul>
+            <ul id="menu">
+                <li id="header_1"><a href="#quemsomos">Quem somos nós?</a></li>
+                <li id="header_2"><a href="#arranjo">Arranjo</a></li>
+                <li id="header_3"><a href="#chapapintura">Chapa e pintura</a></li>
+                <li id="header_4"><a href="#contactos">Contactos</a></li>
+            </ul>
         </div>
     </header>
 
-    <section id="sobrenos">
+    <section id="quemsomos">
         <h1>Quem somos Nós?</h1>
-        <h3>Na DRMMotores dedicamo-nos há décadas ao cuidado e manutenção de veículos,
-            sempre com foco na qualidade e confiança. Localizados em Benavente, oferecemos serviços completos de mecânica, chapa e pintura,
-            diagnósticos e reparações, garantindo que cada cliente sai da nossa oficina com o carro em perfeitas condições.
-            A nossa equipa alia experiência técnica a um atendimento próximo e transparente, tornando-nos uma referência na região.
+        <h3>Na DRMMotores dedicamo-nos há décadas ao cuidado e manutenção de veículos,sempre com foco na qualidade e
+            confiança.
+            Localizados em Benavente, oferecemos serviços completos de mecânica, chapa e pintura,
+            diagnósticos e reparações, garantindo que cada cliente sai da nossa oficina com o carro em perfeitas
+            condições.
+            A nossa equipa alia experiência técnica a um atendimento próximo e transparente, tornando-nos uma referência
+            na região.
             Mais do que reparar automóveis, trabalhamos para que cada viagem seja segura e tranquila.</h3>
     </section>
+
+    <section id="arranjo">
+        <h1>arranjo</h1>
+        <h3>Na DRMMotores dedicamo-nos há décadas ao cuidado e manutenção de veículos,sempre com foco na qualidade e
+            confiança.
+            Localizados em Benavente, oferecemos serviços completos de mecânica, chapa e pintura,
+            diagnósticos e reparações, garantindo que cada cliente sai da nossa oficina com o carro em perfeitas
+            condições.
+            A nossa equipa alia experiência técnica a um atendimento próximo e transparente, tornando-nos uma referência
+            na região.
+            Mais do que reparar automóveis, trabalhamos para que cada viagem seja segura e tranquila.</h3>
+    </section>
+
+    <section id="chapapintura">
+        <h1>chapapintura</h1>
+        <h3>Na DRMMotores dedicamo-nos há décadas ao cuidado e manutenção de veículos,sempre com foco na qualidade e
+            confiança.
+            Localizados em Benavente, oferecemos serviços completos de mecânica, chapa e pintura,
+            diagnósticos e reparações, garantindo que cada cliente sai da nossa oficina com o carro em perfeitas
+            condições.
+            A nossa equipa alia experiência técnica a um atendimento próximo e transparente, tornando-nos uma referência
+            na região.
+            Mais do que reparar automóveis, trabalhamos para que cada viagem seja segura e tranquila.</h3>
+    </section>
+
+    <section id="contactos">
+        <h1>contactos</h1>
+        <h3>Na DRMMotores dedicamo-nos há décadas ao cuidado e manutenção de veículos,sempre com foco na qualidade e
+            confiança.
+            Localizados em Benavente, oferecemos serviços completos de mecânica, chapa e pintura,
+            diagnósticos e reparações, garantindo que cada cliente sai da nossa oficina com o carro em perfeitas
+            condições.
+            A nossa equipa alia experiência técnica a um atendimento próximo e transparente, tornando-nos uma referência
+            na região.
+            Mais do que reparar automóveis, trabalhamos para que cada viagem seja segura e tranquila.</h3>
+    </section>
+
+    <footer>
+        <h1>aaaaaa</h1>
+    </footer>
+    <script>
+        const itemHeader_1 = document.getElementById('header_1');
+        const itemHeader_2 = document.getElementById('header_2');
+        const itemHeader_3 = document.getElementById('header_3');
+        const itemHeader_4 = document.getElementById('header_4');
+        document.getElementById('quemsomos').style.display = "block";
+        document.getElementById('arranjo').style.display = "none";
+        document.getElementById('chapapintura').style.display = "none";
+        document.getElementById('contactos').style.display = "none";
+        itemHeader_1.addEventListener('click', function handleClick() {
+            console.log('quemsomos clicked');
+            document.getElementById('quemsomos').style.display = "block";
+            document.getElementById('arranjo').style.display = "none";
+            document.getElementById('chapapintura').style.display = "none";
+            document.getElementById('contactos').style.display = "none";
+        });
+        itemHeader_2.addEventListener('click', function handleClick() {
+            console.log('arranjo clicked');
+            document.getElementById('quemsomos').style.display = "none";
+            document.getElementById('arranjo').style.display = "block";
+            document.getElementById('chapapintura').style.display = "none";
+            document.getElementById('contactos').style.display = "none";
+        });  
+        itemHeader_3.addEventListener('click', function handleClick() {
+            console.log('chapapintura clicked');
+            document.getElementById('quemsomos').style.display = "none";
+            document.getElementById('arranjo').style.display = "none";
+            document.getElementById('chapapintura').style.display = "block";
+            document.getElementById('contactos').style.display = "none";
+        });  
+        itemHeader_4.addEventListener('click', function handleClick() {
+            console.log('contactos clicked');
+            document.getElementById('quemsomos').style.display = "none";
+            document.getElementById('arranjo').style.display = "none";
+            document.getElementById('chapapintura').style.display = "none";
+            document.getElementById('contactos').style.display = "block";
+        });   
+    </script>
 </body>
 
 </html>
