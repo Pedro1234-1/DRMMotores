@@ -102,7 +102,7 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 1200px;
+  /*max-width: 1200px;*/
   margin: auto;
 }
 
