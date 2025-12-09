@@ -93,7 +93,7 @@ section {
 
 footer {
   background: #222;
-  color: #eee;
+  color: #ff0000;
   padding: 40px 20px;
   font-family: Arial, sans-serif;
 }
@@ -125,9 +125,17 @@ footer {
   margin: 5px 0;
 }
 
+
+#aaaa{
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+}
+
 .footer-links a,
 .footer-social a {
-  color: #aaa;
+  color: #00a2ff;
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -135,6 +143,12 @@ footer {
 .footer-links a:hover,
 .footer-social a:hover {
   color: #fff;
+}
+
+.icon {
+  max-height: 4rem;
+  width: 20px;
+  
 }
 
 .footer-bottom {
