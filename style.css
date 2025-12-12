@@ -84,7 +84,7 @@ section {
     font-size: 10px;
 }
 #contactos {
-    background-color: #59c9a500;
+    background-color: #00000000;
     color: #48668d;
     text-align: center;
     padding: 120px 40px 40px 40px;
@@ -102,11 +102,10 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /*max-width: 1200px;*/
   margin: auto;
 }
 
-.footer-container div {
+.footer-container > div {
   flex: 1;
   margin: 20px;
 }
@@ -114,6 +113,7 @@ footer {
 .footer-container h3 {
   margin-bottom: 10px;
   color: #fff;
+  
 }
 
 .footer-links ul {
@@ -125,19 +125,10 @@ footer {
   margin: 5px 0;
 }
 
-
-#aaaa{
-  display: flex;
-  justify-content: flex-start;
-  text-align: center;
-  align-items: center;
-}
-
 .footer-links a,
 .footer-social a {
   color: #00a2ff;
   text-decoration: none;
-  transition: color 0.3s;
 }
 
 .footer-links a:hover,
@@ -145,10 +136,30 @@ footer {
   color: #fff;
 }
 
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 150px;
+  height: 40px;
+  background: #00a2ff;
+;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+.footer-icon:hover {
+  background: #ff0000;
+}
+
+.footer-icon a {
+  color: #ffffff;
+}
+
 .icon {
   max-height: 4rem;
   width: 20px;
-  
 }
 
 .footer-bottom {
